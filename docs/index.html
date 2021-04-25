@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Adalab Web Starter Kit</title>
+    <link rel="reset" href=".assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
@@ -12,12 +13,20 @@
     <div class="page">
       <header class="header">
         <img src="./assets/images/cover.jpg" alt="New York City background" class="background">
-        <img src="./assets/images/ico-menu.svg" alt="hamburger menu icon">
-        <h1>anonymous proxy</h1>
-        <h2>in fac habitasse platea dictumst.</h2>
-        <img src="./assets/images/ico-scroll-down.svg" alt="arrow icon">
+        <img src="./assets/images/ico-menu.svg" alt="hamburger menu icon" class="hamburger">
+          <div class="words">
+            <h1 class="words1">anonymous proxy</h1>
+            <h2>In fac habitasse platea dictumst.</h2>
+          </div>
+        <img src="./assets/images/ico-scroll-down.svg" alt="arrow icon" class="arrow_down">
       </header>
 
+      <div class="window_container">
+          <small class="window_small">insomnia tips</small>
+          <h2 class="window_title">looking through a window</h2>
+          <p class="window_content"> Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+          <div class="button_go">go</div>
+      </div>
       <section class="reasons_container">
           <h1 class="reasons_title item1">
               3 reasons to purchase
@@ -50,35 +59,28 @@
               </div>
           </div>
       </section>
-      <div class="container">
-          <small class="small">insomnia tips</small>
-          <h2 class="title">looking through a window</h2>
-          <p class="content"> Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-          <div class="button_go">go</div>
-      </div>
       <section class="container_footer">
         <img src="./assets/images/ico-arrow.svg" alt="arrow icon" class="scroll_arrow">
-        
-        <ul class="list">
-          <li><a href="https://adalab.es/">articles</a></li>
-          <li><a href="https://adalab.es/">books</a></li>
-          <li><a href="https://adalab.es/">events</a></li>
-          <li><a href="https://adalab.es/">reasons</a></li>
-          <li><a href="https://adalab.es/">tips</a></li>
-        </ul>
-        
-        <ul class="list">
-          <li><a href="https://adalab.es/">twitter</a></li>
-          <li><a href="https://adalab.es/">instagram</a></li>
-          <li><a href="https://adalab.es/">mastodon.social</a></li>
-        </ul>
-        
-        <footer class="page_footer">
-          <div>&copy; 2021 </div>
-          <small>
-            we <span class="heart">&#10084;</span> components
-          </small>
-        </footer>
+        <div class="content">
+          <ul class="list ">
+            <li><a href="https://adalab.es/">articles</a></li>
+            <li><a href="https://adalab.es/">books</a></li>
+            <li><a href="https://adalab.es/">events</a></li>
+            <li><a href="https://adalab.es/">reasons</a></li>
+            <li><a href="https://adalab.es/">tips</a></li>
+          </ul>
+          <ul class="list list2">
+            <li><a href="https://adalab.es/">twitter</a></li>
+            <li><a href="https://adalab.es/">instagram</a></li>
+            <li><a href="https://adalab.es/">mastodon.social</a></li>
+          </ul>
+          <footer class="page_footer">
+            <div>&copy; 2021 </div>
+            <small>
+              we <span class="heart">&#10084;</span> components
+            </small>
+          </footer>
+        </div>
       </section>
 
     </div>
