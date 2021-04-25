@@ -1,19 +1,30 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 568px;
-  width: 320px;
-  color: white;
 }
 
-.background {
-  height: 568px;
-  min-width: 1200px;
+.header {
+  background: url(".assets/images/cover.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cover {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+
+.cover img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
   z-index: -1;
-  justify-content: center;
 }
 
 .hamburger {
@@ -28,18 +39,37 @@
 }
 
 .words {
-  font-size: 16px;
-  margin-top: 284px;
-  margin-bottom: 143px;
-  justify-content: center;
-}
-.words1 {
-  line-height: 55px;
-  font-size: 42px;
-  text-transform: uppercase;
+  width: 100%;
+  color: white;
+  padding-top: 284px;
+  margin: 15px;
+  text-align: center;
+  transform: translate(0, -45px);
+  @media all and (min-width: 768px) {
+    margin: 39px;
+    height: 384px;
+  }
 }
 
-.arrow_down {
+.words1 {
+  font-size: 42px;
+  line-height: 55px;
+  text-transform: uppercase;
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+    width: 690px;
+  }
+}
+
+.words2 {
+  font-size: 16px;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.arrow {
   background-color: white;
   height: 45px;
   width: 45px;
@@ -49,25 +79,115 @@
   padding-bottom: 15px;
   border-radius: 100px;
   position: absolute;
-  transform: translate(-50%, 548px);
+  justify-content: center;
+  transform: translate(45vw, 45px);
 }
+
+/*.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 568px;
+  width: 100%;
+  color: white;
+}
+
+/*img.background {
+  /* Set rules to fill background */
+/*max-height: 100%;
+  background-size: cover;*/
+
+/* Set up proportionate scaling */
+/*width: 100%;
+  height: 568px;
+  background-position: center center;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  /* Specific to this particular image */
+/* img.background {
+    left: 50%;
+    margin-left: -640px; /* 50% */
+
+/*.background {
+  min-width: 320px;
+  background-position: center center;
+  background-size: cover;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}*/
+
+/*.hamburger {
+  height: 44px;
+  width: 44px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #0271bc;
+  position: absolute;
+}
+
+.words {
+  font-size: 16px;
+  margin-top: 284px;
+  margin-bottom: 143px;
+  margin-left: 15px;
+  margin-right: 15px;
+  @media all and (min-width: 768px) {
+    .background {
+      height: 768px;
+      left: 50%;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    .background {
+      min-height: 768px;
+      left: 50%;
+    }
+  }
+}
+.words1 {
+  line-height: 55px;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.arrow_down {
+  flex-direction: row;
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  padding-left: 13px;
+  padding-right: 12px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  border-radius: 100px;
+  position: absolute;
+  justify-content: center;
+  transform: translate(50vw, 547px);
+}*/
+
 /*@media all and (min-width: 768px) {
   .background {
     height: 768px;
   }
-}*/
-@media all and (max-width: 768px) {
+}
+
+@media all and (min-width: 768px) {
   .background {
     height: 768px;
     left: 50%;
-    margin-left: -384px;
   }
 }
 
-@media all and (max-width: 1200px) {
+@media all and (min-width: 1200px) {
   .background {
     min-height: 768px;
     left: 50%;
-    margin-left: -600px;
   }
-}
+}*/

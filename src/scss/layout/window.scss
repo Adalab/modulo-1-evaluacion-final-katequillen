@@ -1,9 +1,16 @@
 .window_container {
   display: grid;
-  grid-template-columns: 15px 90px 200px 15px;
-  grid-template-rows: 60px 75px 120px 120px;
+  grid-template-columns: 5% 28% 62% 5%;
+  grid-template-rows: 16% 20% 32% 32%;
+  /*grid-template-columns: 15px 90px 200px 15px;
+  grid-template-rows: 60px 75px 120px 120px;*/
   height: 376px;
-  width: 320px;
+  width: 100%;
+  padding-top: 30px;
+  /*@media all and (min-width: 768px) {
+    grid-template-columns: 5% 28% 62% 5%;
+    grid-template-rows: 16% 20% 32% 32%;
+  }*/
 }
 /*.title_all {
   height: 136px;
@@ -23,6 +30,10 @@
   padding-bottom: 15px;
   grid-column-start: 2;
   grid-column-end: 4;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 45px;
+  }
 }
 
 .window_content {
@@ -32,6 +43,9 @@
   color: #4a4a4a;
   grid-column-start: 2;
   grid-column-end: 4;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 .button_go {
@@ -48,4 +62,7 @@
   margin-bottom: 64px;
   margin-top: 30px;
   grid-column: 2;
+  @media all and (min-width: 768px) {
+    width: 91px;
+  }
 }
