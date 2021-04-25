@@ -1,8 +1,18 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.container_footer {
+  background-color: #304268;
+  color: white;
+}
+
+.scroll_arrow {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.list {
+  list-style-type: none;
+  text-transform: capitalize;
+  text-decoration: none;
 }
