@@ -1,6 +1,9 @@
 .header {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  height: 100vh;
+  height: 568px;
+  color: white;
 }
 
 .background {
@@ -12,12 +15,47 @@
   left: 0;
   z-index: -1;
 }
+
+.hamburger {
+  height: 44px;
+  width: 44px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #0271bc;
+  position: absolute;
+}
+
+.words {
+  font-size: 16px;
+  padding-bottom: 143px;
+}
+.words1 {
+  padding-top: 284px;
+  line-height: 55px;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+.arrow_down {
+  background-color: white;
+  height: 45px;
+  width: 45px;
+  padding-left: 13px;
+  padding-right: 12px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  border-radius: 100px;
+  position: absolute;
+  transform: translate(0px, -50%);
+}
 /*@media all and (min-width: 768px) {
   .background {
     height: 768px;
   }
 }*/
-@media all and (max-width: 768px) {
+/*@media all and (max-width: 768px) {
   .background {
     height: 768px;
     left: 50%;
@@ -25,7 +63,7 @@
   }
 }
 
-/*@media all and (max-width: 1200px) {
+@media all and (max-width: 1200px) {
   .background {
     height: 768px;
     left: 50%;
