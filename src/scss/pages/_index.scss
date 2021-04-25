@@ -1,4 +1,9 @@
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px;
+.page {
+  width: 320px;
+  @media all and (min-width: 768px) {
+    width: 768px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 1200px;
+  }
 }

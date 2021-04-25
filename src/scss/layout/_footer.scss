@@ -1,6 +1,9 @@
 .container_footer {
+  display: flex;
+  flex-direction: column;
   background-color: #304268;
   color: white;
+  align-items: center;
 }
 
 .scroll_arrow {
@@ -15,4 +18,13 @@
   list-style-type: none;
   text-transform: capitalize;
   text-decoration: none;
+}
+
+.page_footer {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.heart {
+  color: #f62002;
 }
