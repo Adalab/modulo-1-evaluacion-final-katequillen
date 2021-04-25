@@ -1,0 +1,30 @@
+.container_footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #304268;
+  color: white;
+  align-items: center;
+}
+
+.scroll_arrow {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.list {
+  list-style-type: none;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.page_footer {
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.heart {
+  color: #f62002;
+}

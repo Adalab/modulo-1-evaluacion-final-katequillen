@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 * {
   font-family: Roboto;
+=======
+.page {
+  width: 320px;
+  @media all and (min-width: 768px) {
+    width: 768px;
+  }
+  @media all and (min-width: 1200px) {
+    width: 1200px;
+  }
+>>>>>>> main
 }
