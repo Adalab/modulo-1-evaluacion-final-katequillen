@@ -1,27 +1,47 @@
 .container_footer {
   display: flex;
   flex-direction: column;
+  width: 320px;
   background-color: #304268;
   align-items: center;
+  color: white;
 }
 
 .scroll_arrow {
   height: 45px;
   width: 45px;
+  position: absolute;
   background-color: white;
+  transform: translate(0px, -50%);
   padding: 10px;
   border-radius: 100px;
 }
 
+.content {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  align-items: center;
+}
+
 .list {
   list-style-type: none;
-  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+a {
   text-decoration: none;
+  color: white;
+}
+
+.list2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .page_footer {
   line-height: 30px;
   font-size: 14px;
+  color: white;
 }
 
 .heart {
