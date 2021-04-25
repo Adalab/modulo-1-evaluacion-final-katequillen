@@ -1,16 +1,46 @@
-.reasons {
-  height: 654px;
+.reasons_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 624px;
+  width: 320px;
+  /*text-transform: initial; why isn't this working?*/
   background-color: #eff9ff;
-  text-align: center;
 }
 
-.title2 {
+.reasons_title {
   line-height: 30px;
   font-size: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.reasons_subtitle {
+  line-height: 30px;
+  font-size: 18px;
   font-weight: bold;
 }
 
-.points {
+.reasons_content {
+  width: 180px;
   line-height: 30px;
-  font-size: 18px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 45px;
 }
+
+.reasons_button {
+  width: 184px;
+  height: 45px;
+  background-color: #f26002;
+  color: white;
+  border-radius: 40px;
+  line-height: 45px;
+}
+
+/*https://www.w3schools.com/cssref/css_initial.asp
+https://stackoverflow.com/questions/11129696/capitalize-first-letter-of-sentences-css*/
