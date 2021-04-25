@@ -1,0 +1,23 @@
+.reasons_container {
+  text-align: center;
+  height: 624px;
+  width: 320px;
+  text-transform: initial; /*why isn't this working?*/
+}
+
+h1 {
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h2 {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  width: 135px;
+}
