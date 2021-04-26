@@ -1,20 +1,14 @@
+$color-highlight: #f26002;
+
 .window_container {
   display: grid;
   grid-template-columns: 5% 28% 62% 5%;
   grid-template-rows: 16% 20% 32% 32%;
-  /*grid-template-columns: 15px 90px 200px 15px;
-  grid-template-rows: 60px 75px 120px 120px;*/
   height: 376px;
   width: 100%;
   padding-top: 30px;
-  /*@media all and (min-width: 768px) {
-    grid-template-columns: 5% 28% 62% 5%;
-    grid-template-rows: 16% 20% 32% 32%;
-  }*/
 }
-/*.title_all {
-  height: 136px;
-}*/
+
 .window_small {
   color: lightblue;
   font-size: 14px;
@@ -51,12 +45,12 @@
 .button_go {
   height: 45px;
   width: 76px;
-  border: 3px #f26002 solid;
+  border: 3px $color-highlight solid;
   border-radius: 30px;
   font-size: 20px;
-  line-height: 45px;
+  line-height: 40px;
   text-align: center;
-  color: #f26002;
+  color: $color-highlight;
   background-color: white;
   text-transform: capitalize;
   font-weight: bold;
@@ -69,7 +63,7 @@
   }
   &:hover {
     border: 4px solid white;
-    background-color: #f26002;
+    background-color: $color-highlight;
     color: white;
     animation: button_go 0.8s;
     animation-fill-mode: forwards;
@@ -82,7 +76,8 @@
   }
   100% {
     color: white;
-    background-color: #f26002;
+    background-color: $color-highlight;
     border: 3px solid white;
+    line-height: 40px;
   }
 }

@@ -1,7 +1,8 @@
+$color-highlight: #f26002;
+$color-arrow: rgb(242, 96, 2);
+
 .reasons_container {
   display: grid;
-  /*grid-template-columns: 15px 55px 180px 55px 15px;
-  grid-template-rows: 105px 120px 120px 120px 105px;*/
   grid-template-columns: 5% 17% 56% 17% 5%;
   grid-template-rows: 18% 21% 21% 21% 19%;
   text-align: center;
@@ -55,15 +56,15 @@
 .reasons_button {
   width: 184px;
   height: 45px;
-  background-color: #f26002;
+  background-color: $color-highlight;
   color: white;
   border-radius: 40px;
   line-height: 45px;
   transition: color ease 0.8s;
   &:hover {
-    border: 4px solid rgb(242, 96, 2);
+    border: 4px solid $color-arrow;
     background-color: white;
-    color: #f26002;
+    color: $color-highlight;
     animation: reasons_button 0.8s;
     animation-fill-mode: forwards;
   }
@@ -71,12 +72,12 @@
 
 @keyframes reasons_button {
   0% {
-    background-color: #f26002;
+    background-color: $color-highlight;
   }
   100% {
-    color: #f26002;
+    color: $color-highlight;
     background-color: white;
-    border: 3px solid rgb(242, 96, 2);
+    border: 3px solid $color-arrow;
     line-height: 42px;
   }
 }
