@@ -9,5 +9,8 @@ The finished webpage includes HTML, SCSS, responsive design for mobile, tablet, 
 -	Window
 -	Reasons
 -	Footer
+
+I also left an Easter egg somewhere on the page. Can you find it?
+
 ## Comments or questions?
 Contact me through my profile on Github or at kate.quillen@gmail.com.
