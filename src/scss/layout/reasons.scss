@@ -59,6 +59,26 @@
   color: white;
   border-radius: 40px;
   line-height: 45px;
+  transition: color ease 1s;
+  &:hover {
+    border: 4px solid rgb(242, 96, 2);
+    background-color: white;
+    color: #f26002;
+    animation: reasons_button 1s;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes reasons_button {
+  0% {
+    background-color: #f26002;
+  }
+  100% {
+    color: #f26002;
+    background-color: white;
+    border: 3px solid rgb(242, 96, 2);
+    line-height: 42px;
+  }
 }
 
 .item1 {
