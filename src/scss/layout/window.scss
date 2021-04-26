@@ -63,7 +63,7 @@
   margin-bottom: 64px;
   margin-top: 30px;
   grid-column: 2;
-  transition: color ease-in 1s;
+  transition: color ease-in 0.8s;
   @media all and (min-width: 768px) {
     width: 91px;
   }
@@ -71,7 +71,7 @@
     border: 4px solid white;
     background-color: #f26002;
     color: white;
-    animation: button_go 1s;
+    animation: button_go 0.8s;
     animation-fill-mode: forwards;
   }
 }
@@ -84,6 +84,5 @@
     color: white;
     background-color: #f26002;
     border: 3px solid white;
-    line-height: 42px;
   }
 }
