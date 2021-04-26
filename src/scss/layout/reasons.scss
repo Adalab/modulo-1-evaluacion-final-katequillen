@@ -21,18 +21,35 @@
   text-transform: capitalize;
   text-align: center;
   padding-top: 30px;
+  @media all and (min-width: 768px) {
+    font-size: 26px;
+  }
+  @media all and (min-width: 1200px) {
+    line-height: 42px;
+    font-size: 32px;
+  }
 }
 
 .reasons_subtitle {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .reasons_content {
   /*width: 180px;*/
   line-height: 30px;
   padding-bottom: 45px;
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+    @media all and (min-width: 1200px) {
+      margin-left: 81px;
+      margin-right: 81px;
+    }
+  }
 }
 
 .reasons_button {
@@ -44,12 +61,13 @@
   line-height: 45px;
 }
 
-/*https://www.w3schools.com/cssref/css_initial.asp
-https://stackoverflow.com/questions/11129696/capitalize-first-letter-of-sentences-css*/
-
 .item1 {
-  grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column: 3;
+  align-items: center;
+  justify-content: center;
+  @media all and (min-width: 768px) {
+    grid-column: 2;
+  }
 }
 
 .item2 {
@@ -71,8 +89,8 @@ https://stackoverflow.com/questions/11129696/capitalize-first-letter-of-sentence
 }
 
 .item5 {
+  grid-column: 3;
   @media all and (min-width: 768px) {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 2;
   }
 }

@@ -1,10 +1,20 @@
 .container_footer {
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 100vw;
   background-color: #304268;
-  align-items: center;
+  text-align: center;
   color: white;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    @media all and (min-width: 1200px) {
+      padding-left: 180px;
+      padding-right: 180px;
+    }
+  }
 }
 
 .scroll_arrow {
@@ -21,6 +31,10 @@
   padding-top: 60px;
   padding-bottom: 45px;
   text-align: center;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .list {
@@ -33,15 +47,34 @@ a {
   color: white;
 }
 
+.list1 {
+  @media all and (min-width: 768px) {
+    width: 210px;
+    text-align: left;
+    order: 2;
+  }
+}
+
 .list2 {
   padding-top: 30px;
   padding-bottom: 30px;
+  @media all and (min-width: 768px) {
+    width: 210px;
+    text-align: left;
+    order: 3;
+    padding: 0px;
+  }
 }
 
 .page_footer {
   line-height: 30px;
   font-size: 14px;
   color: white;
+  @media all and (min-width: 768px) {
+    width: 210px;
+    text-align: left;
+    order: 1;
+  }
 }
 
 .heart {

@@ -10,10 +10,10 @@
 
 .cover {
   position: absolute;
-  top: -50%;
+  top: 0%;
   left: -50%;
   width: 200%;
-  height: 200%;
+  max-height: 568px;
 }
 
 .cover img {
@@ -48,6 +48,7 @@
   @media all and (min-width: 768px) {
     margin: 39px;
     height: 384px;
+    width: 690px;
   }
 }
 
@@ -58,7 +59,12 @@
   @media all and (min-width: 768px) {
     font-size: 80px;
     line-height: 106px;
-    width: 690px;
+  }
+  @media all and (min-width: 1200px) {
+    line-height: 132px;
+    font-size: 100px;
+    width: 730px;
+    margin: 275px;
   }
 }
 
