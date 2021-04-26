@@ -3,87 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Anonymous Proxy</title>
     <link rel="reset" href=".assets/css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
 
   <body>
-    <div class="page">
-      <header class="header">
-        <img src="./assets/images/cover.jpg" alt="New York City background" class="background">
-        <img src="./assets/images/ico-menu.svg" alt="hamburger menu icon" class="hamburger">
-          <div class="words">
+    <header class="container_header" id="header">
+      <a href="https://adalab.es/"><img src="./assets/images/ico-menu.svg" alt="hamburger menu icon" class="hamburger"></a>
+    </header>
+
+    <div class="hero">
+        <div class="hero_words">
             <h1 class="words1">anonymous proxy</h1>
-            <h2>In fac habitasse platea dictumst.</h2>
-          </div>
-        <img src="./assets/images/ico-scroll-down.svg" alt="arrow icon" class="arrow_down">
-      </header>
-
-      <div class="window_container">
-          <small class="window_small">insomnia tips</small>
-          <h2 class="window_title">looking through a window</h2>
-          <p class="window_content"> Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
-          <div class="button_go">go</div>
-      </div>
-      <section class="reasons_container">
-          <h1 class="reasons_title item1">
-              3 reasons to purchase
-          </h1>
-          <div class="item2">
-              <h2 class="reasons_subtitle">
-                  Ut sed metus
-              </h2>
-                  <p class="reasons_content">
-                      Lorem ipsum dolor sit amet consectetur.
-                  </p>
-          </div>
-          <div class="item3">
-              <h2 class="reasons_subtitle">
-                  Curabitur ac erat
-              </h2>
-                  <p class="reasons_content">
-                      Mauris mattis urna quis lorem molestie.
-                  </p>
-          </div>
-          <div class="item4">
-              <h2 class="reasons_subtitle">
-                  Morbi dictum
-              </h2>
-                  <p class="reasons_content">
-                      Aliquam in dolor et dolor tincidunt.
-                  </p>
-              <div class="reasons_button item5">
-                  More reasons
-              </div>
-          </div>
-      </section>
-      <section class="container_footer">
-        <img src="./assets/images/ico-arrow.svg" alt="arrow icon" class="scroll_arrow">
-        <div class="content">
-          <ul class="list ">
-            <li><a href="https://adalab.es/">articles</a></li>
-            <li><a href="https://adalab.es/">books</a></li>
-            <li><a href="https://adalab.es/">events</a></li>
-            <li><a href="https://adalab.es/">reasons</a></li>
-            <li><a href="https://adalab.es/">tips</a></li>
-          </ul>
-          <ul class="list list2">
-            <li><a href="https://adalab.es/">twitter</a></li>
-            <li><a href="https://adalab.es/">instagram</a></li>
-            <li><a href="https://adalab.es/">mastodon.social</a></li>
-          </ul>
-          <footer class="page_footer">
-            <div>&copy; 2021 </div>
-            <small>
-              we <span class="heart">&#10084;</span> components
-            </small>
-          </footer>
+            <h2 class="words2">In fac habitasse platea dictumst.</h2>
+            <a href="#reasons" title="3 Reasons to Purchase" alt="3 Reasons to Purchase"><img src="./assets/images/ico-scroll-down.svg" alt="arrow icon" class="arrow_down"></a>
         </div>
-      </section>
-
+        <img src="./assets/images/cover.jpg" alt="New York City background" class="background">
     </div>
+      
+    <div class="window_container">
+        <small class="window_small">insomnia tips</small>
+        <h2 class="window_title">looking through a window</h2>
+        <p class="window_content"> Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+        <div class="button_go">go</div>
+    </div>
+    <section class="reasons_container" id="reasons">
+        <h1 class="reasons_title item1">
+            3 reasons to purchase
+        </h1>
+        <div class="item2">
+            <h2 class="reasons_subtitle">
+                Ut sed metus
+            </h2>
+                <p class="reasons_content">
+                    Lorem ipsum dolor sit amet consectetur.
+                </p>
+        </div>
+        <div class="item3">
+            <h2 class="reasons_subtitle">
+                Curabitur ac erat
+            </h2>
+                <p class="reasons_content">
+                    Mauris mattis urna quis lorem molestie.
+                </p>
+        </div>
+        <div class="item4">
+            <h2 class="reasons_subtitle">
+                Morbi dictum
+            </h2>
+                <p class="reasons_content">
+                    Aliquam in dolor et dolor tincidunt.
+                </p>
+        </div>
+        <div class="reasons_button item5">
+            More reasons
+        </div>
+        
+    </section>
+    <section class="container_footer">
+      <a href="#header" title="Back to top" alt="Back to top"><img src="./assets/images/ico-arrow.svg" href alt="arrow icon" class="scroll_arrow"></a>
+      <div class="content">
+        <ul class="list list1">
+          <li><a href="https://adalab.es/">articles</a></li>
+          <li><a href="https://adalab.es/">books</a></li>
+          <li><a href="https://adalab.es/">events</a></li>
+          <li><a href="https://adalab.es/">reasons</a></li>
+          <li><a href="https://adalab.es/">tips</a></li>
+        </ul>
+        <ul class="list list2">
+          <li><a href="https://adalab.es/">twitter</a></li>
+          <li><a href="https://adalab.es/">instagram</a></li>
+          <li><a href="https://adalab.es/">mastodon.social</a></li>
+        </ul>
+        <footer class="page_footer">
+          <div>&copy; 2021 </div>
+          <small>
+            we <span class="heart">&#10084;</span> components
+          </small>
+        </footer>
+      </div>
+    </section>
+
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
