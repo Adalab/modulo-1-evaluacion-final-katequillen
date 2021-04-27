@@ -1,0 +1,24 @@
+$color-highlight: #f26002;
+
+@media all and (min-width: 768px) {
+  .section_offer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 34px 100px;
+    width: 100vw;
+    background-color: $color-highlight;
+  }
+  .title_special {
+    padding-bottom: 10px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .subtitle_offer {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .info_offer {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
